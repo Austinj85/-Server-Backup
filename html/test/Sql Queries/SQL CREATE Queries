@@ -1,0 +1,62 @@
+CREATE TABLE BEO_Master(
+	Event_ID int(20) PRIMARY KEY,
+	Event_Name varchar(255),
+	Date_Of date,
+	Time_Of time,
+	Client_ID int,
+	Salesperson_ID int,
+	Event_Type_ID int,
+	Location varchar(255),
+	Cocktails_Served varchar(255),
+	Food_Served varchar(255),
+	Notes varchar(255),
+	Menu varchar(500),
+	Room_Setup varchar(255),
+	Table_Setup varchar(255),
+	Bar_Setup varchar(255),
+	Flowers_And_Decor varchar(255),
+	Rentals varchar(255),
+	Audio_And_Visual varchar(255),
+	Music_And_Entertainment varchar(255),
+	Special_Notes varchar(300),
+	Timeline varchar(500)
+);
+
+
+CREATE TABLE Clients(
+	Client_ID int PRIMARY KEY,
+	Name varchar(255),
+	Phone varchar(255),
+	Email varchar(255),
+	Street varchar(255),
+	City varchar(255),
+	State varchar(255),
+	Zip varchar(255)
+);
+
+
+CREATE TABLE Salespeople(
+	Salesperson_ID int PRIMARY KEY,
+	Name varchar(255),
+	Phone varchar(255),
+	Email varchar(255),
+	Password varchar(255)
+);
+
+CREATE TABLE Categories(
+	Category_ID int PRIMARY KEY,
+	Category_Name varchar(255)
+);
+
+
+
+CREATE TABLE Changelog(
+	Change_ID int PRIMARY KEY,
+	Event_ID int,
+	Salesperson_ID int,
+	Description varchar(255),
+	Date date,
+	Time time
+);
+
+

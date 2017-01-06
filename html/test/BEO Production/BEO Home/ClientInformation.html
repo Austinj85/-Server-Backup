@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>Events</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+
+  <!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+</head>
+
+<body>
+  <div class="wrapper row1">
+    <header id="header" class="clear">
+      <div id="hgroup">
+        <h1><a href="#">BEO Event Page</a></h1>
+        <h2>Powered by Jamison Mobile Applications</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/home/">Home</a></li>
+          <li class="current"><a href="/events/">Events</a></li>
+          <li><a href="/reservations/">Reservation</a></li>
+          <li><a href="/contact/">Contact Us</a></li>
+          <li class="last"><a href="/support/">SUPPORT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr>
+    <div align="right">
+      <input type="search" id="MySearch" placeholder="search">
+    </div>
+  </div>
+  <!-- content -->
+  <div class="wrapper row2">
+    <div id="container" class="clear">
+      <!-- content body -->
+      <aside id="left_column">
+        <h2 class="title">Calendar</h2>
+        <div id="calendar">  <script src="calendar.js"></script> </div>
+          
+      </aside>
+
+      <!-- Main Content -->
+      <div id="content">
+        <article>
+          <h1>Event Tools</h1>
+          <nav>
+            <ul>
+              <li><input type="submit" value="Create Event"></li>
+              <li><input type="submit" value="Edit Event"></li>
+              <li><input type="submit" value="Customize Forms"></li>
+            </ul>
+          </nav>
+          <br>
+        </article>
+        <form action="addclient.php" method="post">
+          <fieldset>
+            <legend>
+              <h2>CLIENT INFORMATION</h2></legend>
+            <input type="text" name="firstname" placeholder="First Name">
+            <input type="text" name="lastname" placeholder="Last Name">
+            <br><br>
+            <input type="email" name="client-email" placeholder="Email">
+            <input type="tel" name="client-tel" placeholder="Telephone">
+            <br><br>
+            <input type="text" name="client-street" placeholder="Street">
+            <input type="text" name="client-city" placeholder="City">
+            <br><br>
+            <input type="text" name="client-state" placeholder="State">
+            <input type="text" name="client-zip" placeholder="Zip">
+            <br><br>
+            <input type="submit" value="Next >">
+            <input type="reset" value="Reset">
+          </fieldset>
+        </form>
+      </div>
+      <!-- footer -->
+</body>
+</html>
+</body>
+
+</html>

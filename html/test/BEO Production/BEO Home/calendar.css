@@ -1,0 +1,60 @@
+.calendar td
+{
+	width:50px;
+	height:50px;
+    vertical-align: top;
+	text-align: left;
+	padding:2px;
+	
+	
+}
+
+.calendar  td:nth-child(even){
+	background-color:#FFF;
+	
+}
+.calendar td:nth-child(odd){
+	background-color:#FFF;
+	
+}
+
+.calendar .weekdays th{
+		width:50px;
+		height:30px;
+		text-align:center;
+		vertical-align: top;
+		
+}
+
+.month
+{
+
+
+	font-size:20px;
+
+	height:50px;
+	margin:0px;
+	text-align:center;
+
+}
+hr{
+	margin:2px;
+}
+
+table.calendar{
+
+}
+
+#today{
+	color:#0190FE;
+}
+
+table{
+
+		border-radius:2px;
+		border-collapse:collapse;
+}
+
+.cal{
+	display: inline-block;
+}

@@ -1,0 +1,89 @@
+body{
+	margin:auto;
+
+}
+
+.cal{
+	
+}
+
+#main{
+
+	margin-left:1em;
+	margin-top:2em;
+
+}
+
+#main td{
+	
+	padding:5px;
+
+
+
+}
+th{
+	background-color:#FFF;
+}
+
+ tr:nth-child(odd)
+{
+	background-color:#eee;
+}
+#main table{
+	text-align:left;
+	width:75%;
+
+}
+
+
+#notifications{
+
+}
+
+#leftside{
+	float:left;
+	width:22%;
+	margin-right:1em;
+}
+
+.container-fluid{
+	margin:auto;
+	width:105em;
+	
+
+	
+
+}
+
+.title{
+	text-align:left;
+	color:#777;
+	font-weight:normal;
+	font-size:1.3em;
+	
+}
+
+table{
+	margin:5px;
+}
+
+.container{
+		width: -webkit-fit-content;
+		margin:auto;
+}
+
+.row2{
+	width:100%;
+	background-color:#ddd;
+	margin:auto;
+	height:2.5em;
+}
+
+form{
+	padding:.5em;
+	float:right;
+}
+
+#search{
+	position:relative;
+}

@@ -1,0 +1,32 @@
+
+
+.cal table{
+
+}
+
+.cal td{
+	border:1px solid;
+	padding-left: 10px;
+	width:200px;
+	height:100px;
+	vertical-align: top;
+}
+
+.cal .weekdays{
+	height:25px;
+	color:#fff;
+	background-color: #979797;
+
+}
+
+.cal .title{
+	background-color: #222;
+	color:#fff;
+	height:50px;
+}
+
+
+.onecolumncontent{
+	box-shadow: 0px 10px 10px grey;
+
+}
